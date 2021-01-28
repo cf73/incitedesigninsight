@@ -8,6 +8,14 @@ structure:
       entry: home
     -
       entry: 72f3c262-2e44-447b-bb9d-293c031bda38
+      children:
+        -
+          entry: 86f569e7-94da-4669-b0f4-79a15977b446
+          children:
+            -
+              entry: d8228061-581d-48ea-afcd-6d7a1f72f8f3
+            -
+              entry: 7f48a8b4-b8a1-4b59-9bdc-9261ad66d9e5
     -
       entry: a4c23dd0-32b5-4d9a-be32-71736cbfe12e
     -
