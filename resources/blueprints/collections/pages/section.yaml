@@ -19,6 +19,14 @@ sections:
           type: textarea
           icon: textarea
           listable: hidden
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: hidden
+          listable: hidden
+          default: section
   sidebar:
     display: Sidebar
     fields:
