@@ -8,10 +8,15 @@
     {{summary}}
 </h4>
 
+{{ nav :from="segment_1" }}
+    {{children}}
+        <a href="{{url}}">{{title}}</a>
+    {{/children}}
+{{ /nav }}
 
-<ul>
+<!-- <ul>
     {{collection:branding}}
     <li><a href="{{url}}">{{title}}</a></li>
     {{/collection:branding}}
-</ul>
+</ul> -->
     
