@@ -10,13 +10,22 @@
     </head>
     <body>
         <div class="navigation">
+            <a href="/" style="font-size: 36px; margin-bottom: 60px;">idi</a>
             <ul class="simpleList">
                 {{ nav:main }}
-                <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
+                    <li>
+                        <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
+                    </li>
                 {{ /nav:main }}
             </ul>
         </div>
         <div class="mainContentArea">
+            <div class="quote" style="margin-bottom: 60px; margin-top: 30px;">
+                {{collection:quotes sort="random" limit="1" }}
+                    {{quote}}
+                    — {{attribution}}
+                {{/collection:quotes}}
+            </div>
             {{ template_content }}
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>

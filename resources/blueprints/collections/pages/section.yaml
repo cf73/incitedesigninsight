@@ -20,13 +20,16 @@ sections:
           icon: textarea
           listable: hidden
       -
-        handle: template
+        handle: overview_movie
         field:
-          hide_partials: true
-          display: Template
-          type: hidden
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          max_files: 1
+          display: 'Overview Movie'
+          type: assets
+          icon: assets
           listable: hidden
-          default: section
   sidebar:
     display: Sidebar
     fields:
