@@ -1,4 +1,4 @@
-title: Project
+title: 'Long form project'
 sections:
   main:
     display: Main
@@ -11,10 +11,21 @@ sections:
           validate:
             - required
       -
+        handle: main_video
+        field:
+          mode: grid
+          restrict: false
+          allow_uploads: true
+          display: 'Main Video'
+          type: assets
+          icon: assets
+          listable: hidden
+      -
         handle: main_text
         field:
           always_show_set_button: false
           buttons:
+            - h2
             - h3
             - bold
             - italic
@@ -24,7 +35,7 @@ sections:
             - quote
             - anchor
             - image
-            - underline
+            - table
           save_html: false
           toolbar_mode: fixed
           link_noopener: false
@@ -38,19 +49,9 @@ sections:
           icon: bard
           listable: hidden
       -
-        handle: template
-        field:
-          hide_partials: true
-          display: Template
-          type: hidden
-          listable: hidden
-          default: project
-      -
         handle: related_content
         field:
           mode: default
-          collections:
-            - pages
           display: 'Related content'
           type: entries
           icon: entries
@@ -66,12 +67,3 @@ sections:
           localizable: true
           validate:
             - required
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true

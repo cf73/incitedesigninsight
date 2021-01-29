@@ -1,0 +1,9 @@
+title: Branding
+template: default
+layout: layout
+mount: 86f569e7-94da-4669-b0f4-79a15977b446
+revisions: false
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

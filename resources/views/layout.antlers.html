@@ -12,7 +12,7 @@
         <div class="navigation">
             <ul class="simpleList">
                 {{ nav:main }}
-                    <li><a href="{{ url }}">{{ title }}</a></li>
+                <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
                 {{ /nav:main }}
             </ul>
         </div>

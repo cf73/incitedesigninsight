@@ -1,5 +1,6 @@
 ---
 title: Branding
+template: subsection
 summary: 'A collection of Tom''s branding work from the 70s, 80s, 90s, etc.'
 parent: 72f3c262-2e44-447b-bb9d-293c031bda38
 updated_by: 241dc15f-5b2a-47ac-9111-7bcf1230f589

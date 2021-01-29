@@ -2,6 +2,28 @@
     {{title}}
 </h1>
 
-<h4>
+<h4 style="margin-bottom: 60px;">
     {{summary}}
 </h4>
+
+<h6>Sub-sections:</h6>
+<ul>
+    {{ nav :from="segment_1" }}
+       <li>
+          <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
+          {{ if is_current || is_parent }}
+             {{ if children }}
+                <ul>{{ *recursive children* }}</ul>
+             {{ /if }}
+          {{ /if }}
+       </li>
+    {{ /nav }}
+ </ul>
+
+
+<!-- <ul>
+    {{collection:branding}}
+    <li><a href="{{url}}">{{title}}</a></li>
+    {{/collection:branding}}
+</ul>
+     -->
