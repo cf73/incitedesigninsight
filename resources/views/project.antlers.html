@@ -1,15 +1,23 @@
-{{if main_video}}
-<video autoplay loop width="90%" src="{{main_video}}"></video>
-{{/if}}
-    <h1>
-        {{title}}
-    </h1>
-
-    {{main_text}}
-
-    Related content:<br>
-    {{related_content}}
-        <a href="{{url}}">{{title}}</a>
-    {{/related_content}}
-
+<div class="row">
+    <div class="col-12" style="margin-bottom: 30px;">
+        {{if main_video}}
+        <video autoplay loop width="100%" src="{{main_video}}"></video>
+        {{/if}}
+    </div>
+    
+    
+    <div class="col-md-9">
+        <h1>
+            {{title}}
+        </h1>
+    
+        {{main_text}}
+    </div>
+    
+    <div class="col-md-3">
+        Related content:<br>
+        {{related_content}}
+            <a href="{{url}}">{{title}}</a>
+        {{/related_content}}
+    </div>
 </div>

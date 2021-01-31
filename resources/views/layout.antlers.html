@@ -20,13 +20,15 @@
             </ul>
         </div>
         <div class="mainContentArea">
-            <div class="quote" style="margin-bottom: 60px; margin-top: 30px;">
-                {{collection:quotes sort="random" limit="1" }}
-                    {{quote}}
-                    — {{attribution}}
-                {{/collection:quotes}}
+            <div class="container-fluid">
+                <div class="quote" style="margin-bottom: 60px; margin-top: 30px;">
+                    {{collection:quotes sort="random" limit="1" }}
+                        {{quote}}
+                        — {{attribution}}
+                    {{/collection:quotes}}
+                </div>
+                {{ template_content }}
             </div>
-            {{ template_content }}
         </div>
         <script src="{{ mix src='/js/site.js' }}"></script>
 
