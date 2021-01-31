@@ -1,7 +1,7 @@
 ---
 title: 'Identity design for the TSA (the Theosophical Society of America)'
 updated_by: 241dc15f-5b2a-47ac-9111-7bcf1230f589
-updated_at: 1612042131
+updated_at: 1612074608
 template: project
 main_text:
   -
@@ -63,6 +63,6 @@ main_text:
         text: "\_"
 related_content:
   - 6dc8f379-7d5d-4db4-bd76-8b10a5141ec6
-main_video: 2005_TSA_BRAND_201023c-1612074225.m4v
+main_video: 2005_TSA_BRAND_201023c.m4v
 id: bc18669a-b4aa-4cf2-aa5b-441a4561d229
 ---
