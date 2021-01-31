@@ -1,6 +1,6 @@
-{{if overview_movie}}
+<!-- {{if overview_movie}}
    <video autoplay loop width="73%" src="{{overview_movie}}"></video>
-{{/if}}
+{{/if}} -->
 
 <h1>
     {{title}}
@@ -10,9 +10,11 @@
     {{summary}}
 </h4>
 
-<h6>Sub-sections:</h6>
 <ul>
     {{ nav :from="segment_1" }}
+    {{if children}}
+    <h6 style="margin-left: -40px;">Sub-sections:</h6>
+
        <li>
           <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
           {{ if is_current || is_parent }}
@@ -21,6 +23,7 @@
              {{ /if }}
           {{ /if }}
        </li>
+       {{/if}}
     {{ /nav }}
  </ul>
 

@@ -20,6 +20,7 @@ sections:
           type: assets
           icon: assets
           listable: hidden
+          max_files: 1
       -
         handle: main_text
         field:
@@ -56,6 +57,14 @@ sections:
           type: entries
           icon: entries
           listable: hidden
+      -
+        handle: template
+        field:
+          hide_partials: true
+          display: Template
+          type: hidden
+          listable: hidden
+          default: project
   sidebar:
     display: Sidebar
     fields:

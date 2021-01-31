@@ -1,4 +1,4 @@
-<video autoplay loop width="73%" src="{{overview_movie}}"></video>
+<!-- <video autoplay loop width="50%" src="{{overview_movie}}"></video> -->
 
 <h1>
     {{title}}
@@ -16,8 +16,8 @@
 {{ /nav }} -->
 
 <ul class="simpleList">
-    {{collection:{{last_segment}}}}
-    <li><a href="{{url}}">{{title}}</a></li>
-    {{/collection:{{last_segment}}}}
+    {{collection :from="last_segment"}}
+        <li><a href="{{url}}">{{title}}</a></li>
+    {{/collection}}
 </ul>
     
