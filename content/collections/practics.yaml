@@ -1,9 +1,10 @@
-title: Branding
+title: Practics
 template: default
 layout: layout
-mount: 86f569e7-94da-4669-b0f4-79a15977b446
+taxonomies:
+  - practicstax
 revisions: false
-route: '/practics/branding/{slug}'
+route: '/practics/{practicstaxdfdf}/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
