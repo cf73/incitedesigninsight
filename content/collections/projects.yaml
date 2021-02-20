@@ -1,10 +1,11 @@
-title: Practics
-template: default
+title: Projects
+template: project
 layout: layout
 taxonomies:
-  - practicstax
+  - sections
+  - subsections
 revisions: false
-route: '/practics/{practicstaxdfdf}/{slug}'
+route: '/{sections}/{subsections}/{slug}'
 sort_dir: asc
 date_behavior:
   past: public

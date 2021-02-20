@@ -10,27 +10,8 @@
     {{summary}}
 </h4>
 
-<ul>
-    {{ nav :from="segment_1" }}
-    {{if children}}
-    <h6 style="margin-left: -40px;">Sub-sections:</h6>
-
-       <li>
-          <a href="{{ url }}"{{ if is_current || is_parent }} class="on"{{ /if }}>{{ title }}</a>
-          {{ if is_current || is_parent }}
-             {{ if children }}
-                <ul>{{ *recursive children* }}</ul>
-             {{ /if }}
-          {{ /if }}
-       </li>
-       {{/if}}
-    {{ /nav }}
- </ul>
+{{collection:projects taxonomy:sections="{last_segment}"}}
+   <li><a href="{{url}}">{{title}}</a></li>
+{{/collection:projects}}
 
 
-<!-- <ul>
-    {{collection:branding}}
-    <li><a href="{{url}}">{{title}}</a></li>
-    {{/collection:branding}}
-</ul>
-     -->
