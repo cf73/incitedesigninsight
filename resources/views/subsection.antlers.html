@@ -6,9 +6,9 @@
     {{title}}
 </h1>
 
-<h4>
+<p>
     {{summary}}
-</h4>
+</p>
 
 <!-- further subsections if there are any -->
 <!-- {{ nav :from="segment_1" }}
@@ -17,9 +17,10 @@
     {{/children}}
 {{ /nav }} -->
 
+<h2>All {{last_segment}} projects:</h2>
 <ul class="simpleList">
-    {{collection:projects"}}
-        <li><a href="{{url}}">{{title}}</a></li>
-    {{/collection:projects}}
+    {{collection:projects taxonomy:subsections="{last_segment}"}}
+   <li><a href="{{url}}">{{title}}</a></li>
+{{/collection:projects}}
 </ul>
     
