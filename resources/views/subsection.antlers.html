@@ -18,9 +18,19 @@
 {{ /nav }} -->
 
 <h2>All {{last_segment}} projects:</h2>
-<ul class="simpleList">
-    {{collection:projects taxonomy:subsections="{last_segment}"}}
-   <li><a href="{{url}}">{{title}}</a></li>
+{{collection:projects taxonomy:subsections="{last_segment}" as="entries"}}
+    <ul class="simpleList">
+        {{entries}} 
+            <li><a href="{{url}}">{{title}}</a></li>   
+        {{/entries}}
+    </ul>
+    {{if no_results}}
+        <p>No {{last_segment}} projects have been added yet, but check back soon!</p>
+    {{/if}}
 {{/collection:projects}}
-</ul>
-    
+
+
+    <!-- <ul class="simpleList">
+        {{collection:projects taxonomy:subsections="{last_segment}"}}
+        {{/collection:projects}}
+    </ul> -->

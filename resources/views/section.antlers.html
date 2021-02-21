@@ -26,8 +26,15 @@
 
 <h2>All projects in this section:</h2>
 
-{{collection:projects taxonomy:sections="{last_segment}"}}
-   <li><a href="{{url}}">{{title}}</a></li>
+{{collection:projects taxonomy:sections="{last_segment}" as="entries"}}
+    <ul class="simpleList">
+        {{entries}} 
+            <li><a href="{{url}}">{{title}}</a></li>   
+        {{/entries}}
+    </ul>
+    {{if no_results}}
+        <p>No {{last_segment}} projects have been added yet, but check back soon!</p>
+    {{/if}}
 {{/collection:projects}}
 
 
