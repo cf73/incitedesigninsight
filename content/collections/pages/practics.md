@@ -1,9 +1,8 @@
 ---
 title: Practics
-template: section
-summary: 'This represents an overview Tom Ockerse’s visual design work done, commissioned mostly to serve clients and audiences, from the period 1967 to current years.'
+summary: 'This is the page about practics etc.'
 updated_by: 241dc15f-5b2a-47ac-9111-7bcf1230f589
-updated_at: 1611953713
+updated_at: 1613861818
+id: 94b17fd1-19e2-4685-a1b8-eecc77e3989f
 blueprint: section
-id: 72f3c262-2e44-447b-bb9d-293c031bda38
 ---

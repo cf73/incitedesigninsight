@@ -1,0 +1,48 @@
+title: Projects
+sections:
+  main:
+    display: Main
+    fields:
+      -
+        handle: title
+        field:
+          type: text
+          required: true
+          validate:
+            - required
+      -
+        handle: content
+        field:
+          type: markdown
+          localizable: true
+  sidebar:
+    display: Sidebar
+    fields:
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
+          validate:
+            - required
+      -
+        handle: sections
+        field:
+          type: terms
+          taxonomies:
+            - sections
+          display: Sections
+          mode: select
+          listable: hidden
+          max_items: 1
+      -
+        handle: subsections
+        field:
+          type: terms
+          taxonomies:
+            - subsections
+          display: Subsections
+          mode: select
+          listable: hidden
+          max_items: 1

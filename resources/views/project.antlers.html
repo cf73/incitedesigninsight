@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-12" style="margin-bottom: 30px;">
-        {{if main_video}}
-        <video autoplay loop width="100%" src="{{main_video}}"></video>
+        {{if intro_movie}}
+        <video autoplay loop width="100%" src="{{intro_movie}}"></video>
         {{/if}}
     </div>
     
@@ -11,7 +11,29 @@
             {{title}}
         </h1>
     
-        {{main_text}}
+        {{main_content}}
+        
+            {{ if type == "text" }}
+
+            <div class="text">
+            {{ text }}
+            </div>
+
+            {{ elseif type == "quote" }}
+
+            <blockquote>{{ quote }}</blockquote>
+            <p>— {{ attribution }}</p>
+        
+          {{ elseif type == "image" }}
+        
+            <figure>
+              <img src="{{ photo }}" alt="{{ caption }}" />
+              <figcaption>{{ caption }}</figcaption>
+            </figure>
+        
+          {{ /if }}
+
+        {{/main_content}}
     </div>
     
     <div class="col-md-3">

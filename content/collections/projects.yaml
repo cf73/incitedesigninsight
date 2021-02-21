@@ -1,0 +1,12 @@
+title: Projects
+template: project
+layout: layout
+taxonomies:
+  - sections
+  - subsections
+revisions: false
+route: '/{sections}/{subsections}/{slug}'
+sort_dir: asc
+date_behavior:
+  past: public
+  future: private

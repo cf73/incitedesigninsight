@@ -1,29 +1,25 @@
-title: Sections
-template: default
+title: Pages
+template: section
 layout: layout
 revisions: false
 route: '{parent_uri}/{slug}'
 sort_dir: asc
+date_behavior:
+  past: public
+  future: private
 structure:
-  root: true
+  root: false
   tree:
     -
-      entry: home
-    -
-      entry: 72f3c262-2e44-447b-bb9d-293c031bda38
+      entry: 94b17fd1-19e2-4685-a1b8-eecc77e3989f
       children:
         -
-          entry: 86f569e7-94da-4669-b0f4-79a15977b446
-          children:
-            -
-              entry: 7ea4e4cd-f3a5-4ebe-9156-9ecd9bc40194
-        -
-          entry: 6392a47d-7630-42f2-aa14-6ce3940514aa
+          entry: bf57ab34-7e91-403e-93cd-2bf7ccb2ef74
     -
-      entry: a4c23dd0-32b5-4d9a-be32-71736cbfe12e
+      entry: 05ed2b4b-4176-4f3d-b161-934f73bae8f9
     -
-      entry: 787d2fb2-ef7b-4c0d-ae30-1e8210707511
+      entry: 7c32cce6-f218-4d92-866c-6911d8c554ae
     -
-      entry: d3344cce-3e93-4a90-888b-70f845f1d74d
+      entry: ddd8c9d9-f0a9-4d1e-8991-fdb4e782202f
     -
-      entry: 2d9198f9-c8bb-44fd-a9f1-06ad3614bcac
+      entry: b4f6d81d-2d89-4384-99ba-1bf0a8f552e2
