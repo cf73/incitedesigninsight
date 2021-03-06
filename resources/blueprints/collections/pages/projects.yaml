@@ -127,26 +127,6 @@ sections:
           validate:
             - required
       -
-        handle: sections
-        field:
-          type: terms
-          taxonomies:
-            - sections
-          display: Sections
-          mode: select
-          listable: hidden
-          max_items: 1
-      -
-        handle: subsections
-        field:
-          type: terms
-          taxonomies:
-            - subsections
-          display: Subsections
-          mode: select
-          listable: hidden
-          max_items: 1
-      -
         handle: related_content
         field:
           mode: default
@@ -156,3 +136,12 @@ sections:
           type: entries
           icon: entries
           listable: hidden
+      -
+        handle: parent
+        field:
+          type: entries
+          collections:
+            - pages
+          max_items: 1
+          listable: false
+          localizable: true
