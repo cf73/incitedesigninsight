@@ -1,16 +1,16 @@
+<h1>
+   {{title}}
+</h1>
+
+<p style="margin-bottom: 60px;">
+   {{summary}}
+</p>
+
 {{if overview_movie}}
    <video autoplay loop width="73%" src="{{overview_movie}}"></video>
 {{/if}}
 
-<h1>
-    {{title}}
-</h1>
-
-<p style="margin-bottom: 60px;">
-    {{summary}}
-</p>
-
-<h2>Subsections in this section:</h2>
+<!-- <h2>In this section:</h2>
 <ul>
    {{ nav :from="segment_1" }}
       <li>
@@ -22,19 +22,4 @@
          {{ /if }}
       </li>
    {{ /nav }}
-</ul>
-
-<h2>All projects in this section:</h2>
-
-{{collection:projects taxonomy:sections="{last_segment}" as="entries"}}
-    <ul class="simpleList">
-        {{entries}} 
-            <li><a href="{{url}}">{{title}}</a></li>   
-        {{/entries}}
-    </ul>
-    {{if no_results}}
-        <p>No {{last_segment}} projects have been added yet, but check back soon!</p>
-    {{/if}}
-{{/collection:projects}}
-
-
+</ul> -->

@@ -3,11 +3,11 @@
     left: 0;
     top: 0;
     height: 100vh;
-    width: 180px;
-    background-color: purple;
+    width: 40vw;
+    background-color: #d8e0e4;
     padding-left: 20px;
     & a {
-        color: white;
+        color: #212529;
     }
 }
 .simpleList {
@@ -16,6 +16,6 @@
 
 }
 .mainContentArea {
-    margin-left: 210px;
+    margin-left: calc(40vw + 20px);
     padding-right: 20px;
 }

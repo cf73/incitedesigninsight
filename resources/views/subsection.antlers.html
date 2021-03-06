@@ -9,28 +9,3 @@
 <p>
     {{summary}}
 </p>
-
-<!-- further subsections if there are any -->
-<!-- {{ nav :from="segment_1" }}
-    {{children}}
-        <a href="{{url}}">{{title}}</a>
-    {{/children}}
-{{ /nav }} -->
-
-<h2>All {{last_segment}} projects:</h2>
-{{collection:projects taxonomy:subsections="{last_segment}" as="entries"}}
-    <ul class="simpleList">
-        {{entries}} 
-            <li><a href="{{url}}">{{title}}</a></li>   
-        {{/entries}}
-    </ul>
-    {{if no_results}}
-        <p>No {{last_segment}} projects have been added yet, but check back soon!</p>
-    {{/if}}
-{{/collection:projects}}
-
-
-    <!-- <ul class="simpleList">
-        {{collection:projects taxonomy:subsections="{last_segment}"}}
-        {{/collection:projects}}
-    </ul> -->
