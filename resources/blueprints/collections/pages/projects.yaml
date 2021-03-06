@@ -131,7 +131,7 @@ sections:
         field:
           mode: default
           collections:
-            - projects
+            - pages
           display: 'Related content'
           type: entries
           icon: entries
