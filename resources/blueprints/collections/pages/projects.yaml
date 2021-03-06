@@ -119,14 +119,6 @@ sections:
     display: Sidebar
     fields:
       -
-        handle: slug
-        field:
-          type: slug
-          required: true
-          localizable: true
-          validate:
-            - required
-      -
         handle: related_content
         field:
           mode: default
@@ -136,6 +128,12 @@ sections:
           type: entries
           icon: entries
           listable: hidden
+      -
+        handle: slug
+        field:
+          type: slug
+          required: true
+          localizable: true
       -
         handle: parent
         field:
