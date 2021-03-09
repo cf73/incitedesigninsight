@@ -15,7 +15,7 @@ return [
     |
     */
 
-    'enabled' => env('STATAMIC_GIT_ENABLED', false),
+    'enabled' => env('STATAMIC_GIT_ENABLED', true),
 
     /*
     |--------------------------------------------------------------------------
@@ -111,7 +111,7 @@ return [
     | Determine whether `git push` should be run after the commands above
     | have finished. This is disabled by default, but can be enabled
     | globally, or per environment using the provided variable.
-    | 
+    |   
     */
 
     'push' => env('STATAMIC_GIT_PUSH', true),
