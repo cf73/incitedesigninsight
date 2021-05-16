@@ -1,7 +1,7 @@
 ---
-title: SYSTEMS
+title: DIDACTICS
 template: project
-intro_movie: 21-SYSTEMS_SHORT-2-1.50.m4v
+intro_movie: 21DIDACintroSHORT-2.50.m4v
 main_content:
   -
     text:
@@ -10,11 +10,11 @@ main_content:
         content:
           -
             type: text
-            text: "The theory of SYSTEMS studies the nature of unity in diversity for design.\_"
+            text: 'An overview of selected courses taught by Tom Ockerse in higher education from 1967 to 2018.'
     type: text
     enabled: true
 updated_by: a726f1e0-85b0-48e3-939b-db6b8482c1d0
-updated_at: 1620242401
-id: abbabc97-d9ba-4835-ab66-406bdf431333
+updated_at: 1620243439
 blueprint: projects
+id: f7874f17-0132-4016-8f67-1d88cf44f9e3
 ---

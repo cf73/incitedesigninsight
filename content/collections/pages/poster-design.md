@@ -1,7 +1,7 @@
 ---
-title: SYSTEMS
+title: 'Poster Design'
 template: project
-intro_movie: 21-SYSTEMS_SHORT-2-1.50.m4v
+intro_movie: 3IDIPR-POSTERS-1619908466.m4v
 main_content:
   -
     text:
@@ -10,11 +10,11 @@ main_content:
         content:
           -
             type: text
-            text: "The theory of SYSTEMS studies the nature of unity in diversity for design.\_"
+            text: 'These samples of posters were designed by Thomas Ockerse from 1965 through 2020.'
     type: text
     enabled: true
 updated_by: a726f1e0-85b0-48e3-939b-db6b8482c1d0
-updated_at: 1620242401
-id: abbabc97-d9ba-4835-ab66-406bdf431333
+updated_at: 1619908477
+id: 444c3868-8548-4ebd-980d-411b63db2085
 blueprint: projects
 ---
