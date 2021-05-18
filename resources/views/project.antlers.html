@@ -13,25 +13,27 @@
     
         {{main_content}}
         
-            {{ if type == "text" }}
+        {{ if type == "text" }}
 
-            <div class="text" style="max-width: 500px;">
-            {{ text }}
-            </div>
+        <div class="text" style="max-width: 600px;">
+        {{ text }}
+        </div>
 
-            {{ elseif type == "quote" }}
+        {{ elseif type == "quote" }}
 
+        <div class="blockquote">
             <blockquote>{{ quote }}</blockquote>
-            <p>— {{ attribution }}</p>
+            <p class="attribution">— {{ attribution }}</p>
+        </div>
         
-          {{ elseif type == "image" }}
-        
-            <figure>
-              <img src="{{ photo }}" alt="{{ caption }}" />
-              <figcaption>{{ caption }}</figcaption>
-            </figure>
-        
-          {{ /if }}
+        {{ elseif type == "image" }}
+    
+        <figure>
+            <img src="{{ photo }}" alt="{{ caption }}" />
+            <figcaption>{{ caption }}</figcaption>
+        </figure>
+    
+        {{ /if }}
 
         {{/main_content}}
     </div>

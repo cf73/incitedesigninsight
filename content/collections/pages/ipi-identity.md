@@ -22,19 +22,20 @@ main_content:
     type: text
     enabled: true
   -
+    quote: 'this is a test pull quote'
+    attribution: 'sample attribution'
+    type: quote
+    enabled: true
+  -
     text:
       -
         type: paragraph
         content:
           -
             type: text
-            text: "When Tom started to work in the JKF studio office, in 1965, this branding project was one of the first assignments he was to get involved with. This project, under the experience direction of James Fogleman, was Tom’ first assignment, which was to design the logo for IPI with the plan to start using the symbol as the company’s center for the development of its corporate identity. The logo design prioritized identity of letters but placed within a square these parts played out subtle ideas representing the printing technology: the use of one “color” for the logo suggesting a printed form with letters reversed our in white where ink had no ink; the use of an “ink-well” at the top of the lowercase letter “i” to suggest being filled with ink; the top of the logo referencing a letterpress surface for paper to drop on.\_"
+            text: 'When Tom started to work in the JKF studio office, in 1965, this branding project was one of the first assignments he was to get involved with. This project, under the experience direction of James Fogleman, was Tom’ first assignment, which was to design the logo for IPI with the plan to start using the symbol as the company’s center for the development of its corporate identity. The logo design prioritized identity of letters but placed within a square these parts played out subtle ideas representing the printing technology: the use of one “color” for the logo suggesting a printed form with letters reversed our in white where ink had no ink; the use of an “ink-well” at the top of the lowercase letter “i” to suggest being filled with ink; the top of the logo referencing a letterpress surface for paper to drop on.'
     type: text
     enabled: true
-  -
-    type: image
-    enabled: true
-    image: Fidelis-Distribution-Brightened-and-Larger-1621299962.png
   -
     text:
       -
@@ -91,7 +92,7 @@ main_content:
     type: image
     enabled: true
 updated_by: 241dc15f-5b2a-47ac-9111-7bcf1230f589
-updated_at: 1621299966
+updated_at: 1621301945
 blueprint: projects
 id: 528f49f9-62e8-41e1-91e6-bbb717e4bea9
 ---
