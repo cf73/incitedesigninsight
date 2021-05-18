@@ -1,7 +1,6 @@
 ---
 title: 'IPI Identity'
 template: project
-intro_movie: 21_IPI_SHORT1-1619906882.m4v
 main_content:
   -
     text:
@@ -35,7 +34,7 @@ main_content:
   -
     type: image
     enabled: true
-    image: IPI01.jpg
+    image: Fidelis-Distribution-Brightened-and-Larger-1621299962.png
   -
     text:
       -
@@ -49,35 +48,27 @@ main_content:
     type: text
     enabled: true
   -
-    image: IPI02-1620851449.jpg
     type: image
     enabled: true
   -
-    image: IPI03-1620851480.jpg
     type: image
     enabled: true
   -
-    image: IPI04-1620851494.jpg
     type: image
     enabled: true
   -
-    image: IPI05-1620851511.jpg
     type: image
     enabled: true
   -
-    image: IPI06-1620851530.jpg
     type: image
     enabled: true
   -
-    image: 2017-04-02-07.30.21.jpg
     type: image
     enabled: true
   -
-    image: IPI07-1620851546.jpg
     type: image
     enabled: true
   -
-    image: IPI08_p2-16a-1620851559.jpg
     type: image
     enabled: true
   -
@@ -91,19 +82,16 @@ main_content:
     type: text
     enabled: true
   -
-    image: IPI09_p2-17b-1620851605.jpg
     type: image
     enabled: true
   -
-    image: IPI12_p2-19a-1620851636.jpg
     type: image
     enabled: true
   -
-    image: IPI10_p2-18a-1620851677.jpg
     type: image
     enabled: true
-updated_by: a726f1e0-85b0-48e3-939b-db6b8482c1d0
-updated_at: 1620852240
+updated_by: 241dc15f-5b2a-47ac-9111-7bcf1230f589
+updated_at: 1621299966
 blueprint: projects
 id: 528f49f9-62e8-41e1-91e6-bbb717e4bea9
 ---
